@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px;
+    grid-gap: 10px;
+    background-color: black;
+    color: black;
+    border: 10px solid white;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.box {
+    background-color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newGame { 
+  width: 175px;  
+  margin: auto;
+  text-align: center;
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+}
+.newGame:hover {
+    background-color: black;
+}
+.newGame:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
